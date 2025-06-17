@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YouTube Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="left">
+      <img class="menu-icon" src="./img/menu.png" alt="menu">
+      <img class="logo" src="./img/logo.png" alt="YouTube">
+    </div>
+    <div class="center">
+      <input type="text" placeholder="Search">
+      <button class="search-btn">🔍</button>
+    </div>
+    <div class="right">
+      <img src="./img/create.png" alt="Create" class="icon">
+      <img src="./img/notification.png" alt="Notifications" class="icon">
+      <img src="./img/profile.png" alt="Profile" class="icon profile">
+    </div>
+  </header>
+
+  <div class="container">
+    <aside class="sidebar">
+      <ul>
+        <li><img src="./img/icon-inicio.png" alt=""> Home</li>
+        <li><img src="./img/shorts.png" alt=""> Shorts</li>
+        <li><img src="./img/incrições.png" alt=""> Subscriptions</li>
+        <li><img src="./img/history.png" alt=""> History</li>
+        <li><img src="./img/like.png" alt=""> Liked videos</li>
+      </ul>
+    </aside>
+
+    <main>
+      <div class="filters">
+        <button class="filter active">All</button>
+        <button class="filter">Music</button>
+        <button class="filter">Mixes</button>
+        <button class="filter">Gaming</button>
+        <button class="filter">Live</button>
+        <button class="filter">Funk</button>
+        <button class="filter">R&B</button>
+      </div>
+
+      <section class="videos">
+        <div class="video-card">
+          <img src="./img/thumb1.jpg" alt="Video 1">
+          <h4>Mix - Beyoncé 2</h4>
+          <p>Ryu The Runner, D Santana • 1M views</p>
+        </div>
+        <div class="video-card">
+          <img src="./img/thumb2.jpg" alt="Valorant">
+          <h4>GEN 0x0 G2 | VALORANT Masters</h4>
+          <p>VALORANT Esports BR • 3.7k watching</p>
+        </div>
+        <div class="video-card">
+          <img src="./img/thumb3.jpg" alt="Judô">
+          <h4>AO VIVO: Judô Budapeste 2025</h4>
+          <p>CazéTV • 3.1k assistindo</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
